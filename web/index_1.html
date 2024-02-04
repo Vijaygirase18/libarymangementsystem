@@ -1,0 +1,122 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Free CSS Templates
+http://www.freecsstemplates.org
+Released for free under a Creative Commons Attribution 2.5 License
+
+Name       : Boldness   
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20120422
+-->
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Boldness by FCT</title>
+<link href="http://fonts.googleapis.com/css?family=Abel" rel="stylesheet" type="text/css" />
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.0.js"></script>
+</head>
+<body>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header">
+			<div id="logo">
+				<h1><a href="#">Library System</a></h1>
+				
+			</div>
+		</div>
+	</div>
+	<!-- end #header -->
+	<div id="menu">
+		<ul>
+			<li class="current_page_item"><a href="index_1.html">Homepage</a></li>
+			<li><a href="newjsp1.jsp">BookEntry</a></li>
+			<li><a href="newjsp5.jsp">ListBooks</a></li>
+			<li><a href="newjsp6.jsp">BooksProc</a></li>
+			<li><a href="newjsp8.jsp">AboutUs</a></li>
+			<li><a href="newjsp9.jsp">Contact</a></li>
+		</ul>
+	</div>
+	<!-- end #menu -->
+	<div id="page">
+		<div id="content">
+			<div id="slider">
+				<div class="viewer">
+					<div class="reel">
+						<div class="slide"> <img src="images/pics01.jpg" width="590" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/pics02.jpg" width="590" height="300" alt="" /> </div>
+						<div class="slide"> <img src="images/pics03.jpg" width="590" height="300" alt="" /> </div>
+					</div>
+				</div>
+			</div>
+			<script type="text/javascript">
+				$('#slider').slidertron({
+					viewerSelector: '.viewer',
+					reelSelector: '.viewer .reel',
+					slidesSelector: '.viewer .reel .slide',
+					advanceDelay: 3000,
+					speed: 'slow'
+				});
+			</script>
+
+			<div class="post">
+				<h2 class="title"><a href="#">Welcome to Library System</a></h2>
+				<div class="entry">
+					<p>A college library management is a project that manages and stores books information electronically according to students needs. The system helps both students and library manager to keep a constant track of all the books available in the library.</p>
+					<p>It allows both the admin and the student to search for the desired book. It becomes necessary for colleges to keep a continuous check on the books issued and returned and even calculate fine. </p>
+				</div>
+			</div>
+			<div class="post">
+				<h2 class="title"><a href="#">Modules</a></h2>
+				<div class="entry">
+					<p> Admin login: Admin is the one who administers the system by adding or removing e-books into and from the system respectively.
+User login: Students have to register themselves into the system to create an account. After registering successfully, they can then login into the system by entering 10 digit mobile number and their email id.</p>
+				</div>
+			</div>
+			<div class="post">
+				<h2 class="title"><a href="#">Advantages </a></h2>
+				<div class="entry">
+					<p>The system excludes the use of paper work by managing all the book information electronically.
+Admin can keep updating the system by providing the new books arrival in system and their availability thus students need not to go to library for issuing purpose.</p>
+				</div>
+			</div>
+			<div style="clear: both;">&nbsp;</div>
+		</div>
+		<!-- end #content -->
+		<div id="sidebar-bg">
+			<div id="sidebar">
+				<ul>
+					<li>
+						<h2>Disadvantages</h2>
+						<p>There is no human interaction if users have some enquiry.</p>
+					</li>
+					<li>
+						<h2>Reports</h2>
+						<ul>
+							<li><a href="#">Member List</a></li>
+							<li><a href="#">Book Entry</a></li>
+							</ul>
+					</li>
+					<li>
+						</li>
+					<li>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- end #sidebar -->
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+	<!-- end #page -->
+</div>
+<div id="footer">
+	<p>2023 - Created By Vijay Girase</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>
